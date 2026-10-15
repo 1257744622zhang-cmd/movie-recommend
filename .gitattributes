@@ -1,0 +1,4 @@
+# 统一换行符，避免 Windows/Linux 混用
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf

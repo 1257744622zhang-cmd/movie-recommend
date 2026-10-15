@@ -1,0 +1,26 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+*.iml
+*.log
+
+# ===== IDE =====
+.idea/
+.vscode/
+.trae/
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+*.local
+npm-debug.log*
+yarn-error.log*
+
+# ===== 运行时数据 / 上传文件 =====
+uploads/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
